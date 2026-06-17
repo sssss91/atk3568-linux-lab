@@ -1,0 +1,64 @@
+===== 系统信息 =====
+Linux alientek-virtual-machine 5.15.0-76-generic #83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+===== 系统版本 =====
+NAME="Ubuntu"
+VERSION="20.04.2 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.2 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+===== CPU 架构 =====
+x86_64
+===== 内存 =====
+              总计         已用        空闲      共享    缓冲/缓存    可用
+内存：        15Gi       918Mi        13Gi       2.0Mi       1.2Gi        14Gi
+交换：       8.0Gi          0B       8.0Gi
+===== 磁盘 =====
+文件系统        容量  已用  可用 已用% 挂载点
+udev            7.8G     0  7.8G    0% /dev
+tmpfs           1.6G  1.9M  1.6G    1% /run
+/dev/sda5       491G   20G  446G    5% /
+tmpfs           7.8G     0  7.8G    0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+tmpfs           7.8G     0  7.8G    0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0  100% /snap/bare/5
+/dev/loop1       56M   56M     0  100% /snap/core18/1944
+/dev/loop2      219M  219M     0  100% /snap/gnome-3-34-1804/93
+/dev/loop3       92M   92M     0  100% /snap/gtk-common-themes/1535
+/dev/loop4      219M  219M     0  100% /snap/gnome-3-34-1804/66
+/dev/loop6       52M   52M     0  100% /snap/snap-store/518
+/dev/loop5       65M   65M     0  100% /snap/gtk-common-themes/1514
+/dev/loop7       32M   32M     0  100% /snap/snapd/10707
+/dev/sda1       511M  4.0K  511M    1% /boot/efi
+tmpfs           1.6G   24K  1.6G    1% /run/user/1000
+===== IP 地址 =====
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:ea:ff:80 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.88.129/24 brd 192.168.88.255 scope global dynamic noprefixroute ens33
+       valid_lft 1051sec preferred_lft 1051sec
+    inet6 fe80::b9a6:e72a:1e46:767/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+===== 当前进程 =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.0 167604 11476 ?        Ss   14:35   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    14:35   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   14:35   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   14:35   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   14:35   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   14:35   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   14:35   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   14:35   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    14:35   0:00 [rcu_tasks_rude_]
