@@ -1,0 +1,27 @@
+===== 系统资源告警检查 =====
+===== 内存使用情况 =====
+              总计         已用        空闲      共享    缓冲/缓存    可用
+内存：        15Gi       921Mi        13Gi       2.0Mi       1.2Gi        14Gi
+交换：       8.0Gi          0B       8.0Gi
+===== 磁盘使用情况 =====
+文件系统        容量  已用  可用 已用% 挂载点
+udev            7.8G     0  7.8G    0% /dev
+tmpfs           1.6G  1.9M  1.6G    1% /run
+/dev/sda5       491G   20G  446G    5% /
+tmpfs           7.8G     0  7.8G    0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+tmpfs           7.8G     0  7.8G    0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0  100% /snap/bare/5
+/dev/loop1       56M   56M     0  100% /snap/core18/1944
+/dev/loop2      219M  219M     0  100% /snap/gnome-3-34-1804/93
+/dev/loop3       92M   92M     0  100% /snap/gtk-common-themes/1535
+/dev/loop4      219M  219M     0  100% /snap/gnome-3-34-1804/66
+/dev/loop6       52M   52M     0  100% /snap/snap-store/518
+/dev/loop5       65M   65M     0  100% /snap/gtk-common-themes/1514
+/dev/loop7       32M   32M     0  100% /snap/snapd/10707
+/dev/sda1       511M  4.0K  511M    1% /boot/efi
+tmpfs           1.6G   24K  1.6G    1% /run/user/1000
+当前内存使用率：%
+当前根目录磁盘使用率：5%
+OK: 内存使用率正常
+OK: 磁盘使用率正常
