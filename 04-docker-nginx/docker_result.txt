@@ -1,0 +1,5 @@
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS         PORTS                                   NAMES
+86cf5989dd32   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes   0.0.0.0:8080->80/tcp, :::8080->80/tcp   my-nginx
+<h1>Hello Docker Nginx</h1>
+<p>This is my first Docker project.</p >
+<p>Running on ATK3568 Linux Lab.</p >
