@@ -1,0 +1,4 @@
+2026-06-17 10:00:01 INFO app started
+2026-06-17 10:01:02 WARNING memory usage high
+2026-06-17 10:02:03 ERROR database connection failed
+2026-06-17 10:03:04 INFO request success
